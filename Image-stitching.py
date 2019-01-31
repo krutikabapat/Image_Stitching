@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from random import randrange
 
-img_ = cv2.imread('/home/krutika/Documents/Image_Stitching/newspaper1.jpg')
+img_ = cv2.imread('file path of first Image')
 img1 = cv2.cvtColor(img_,cv2.COLOR_BGR2GRAY)
 
-img = cv2.imread('/home/krutika/Documents/Image_Stitching/newspaper2.jpg')
+img = cv2.imread'file path of second Image')
 img2 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 
